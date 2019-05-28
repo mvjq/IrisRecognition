@@ -30,6 +30,11 @@ Abstract: This project intends to identify humans by they iris using techniques 
 
 ### **Process:**
 
-
+1) Process the dataset, make the images more easy to process (there's a possibility to remove eyelashes to earn a more precise image but first, we'll guarantee that the methods here work without worrying about this )
+2) We  extract the pupils and iris using a couple of techniques (integrodifferential and Hough transform)
+3) We normalize the extracted iris to make the comparison possible 
+4) In this part, we verify the image using a couple of filters (Gabor/Log-Gabor and, Laplacian of Gaussian)
+5) Here it's the comparison part: we check in the database for an image equals/similar to the iris processed. We use Hamming Distance, Euclidian Distance and, Norm Correlation)
+6) If the image is in the database, we validate it. If not, there's a possibility to insert for future verifications.
 
 ### **Source Code**:
