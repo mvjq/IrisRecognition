@@ -2,6 +2,7 @@
 
 Abstract: This project intends to identify humans by they iris using techniques of image processing. Given a image of eyes, return a validation of that eyes.
 
+https://docs.google.com/presentation/d/1uJh9UYfRzmgZTWqcBtOmmtIEbUslNn4ShaBZy1Ci3-o/edit?usp=sharing
 
 #### Table of Contents
 
