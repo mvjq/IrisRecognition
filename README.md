@@ -155,7 +155,7 @@ tqdm>=4.28.1
 
 Install the dependencies with
 
-```pip install - requirements.txt```
+```pip install -r requirements.txt```
 
  It's necessary to have opencv installed (or in a virtual enviroment)
 
