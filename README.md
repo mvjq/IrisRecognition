@@ -1,3 +1,5 @@
+# no license, free as in free beer
+
 # Biometric Sytem for Iris Recognition
 
 Abstract: This project intends to identify humans by they iris using techniques of image processing. Given a image of eyes, return a validation of that eyes.
